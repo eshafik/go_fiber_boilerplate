@@ -1,0 +1,73 @@
+# Binaries
+/bin/
+/dist/
+/build/
+/out/
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Vendor directory (for vendored dependencies)
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Application specific
+.env
+.env.local
+.env.*.local
+
+# Dependency directories (remove the comment if you are using Go modules)
+# /vendor/
+
+# Generated files
+*.gen.go
+*.swagger.json
+*.swagger.yaml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.iml
+
+# Testing
+coverage.out
+profile.out
+testdata/
+
+# Go modules
+/go.sum
+/go.sum.old
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Docker files
+docker-compose.override.yml
+docker-compose.debug.yml
+Dockerfile*
+
+# Fiber specific
+tmp/
+.cache/
+
+# Project build outputs
+*.out
+*.a
+
+# Node.js (if you're using front-end within your project)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sensitive data
+secret/
+credentials.json
